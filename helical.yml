@@ -1,0 +1,12 @@
+name: helical
+channels:
+    - conda-forge
+    - bioconda
+dependencies:
+    - python=3.11
+    - ipython
+    - ipykernel
+    - ipywidgets
+    - pip
+    - pip: 
+       - helical
